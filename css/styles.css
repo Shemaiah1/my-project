@@ -1,0 +1,143 @@
+/******************************************************************
+*Author's name:Shemaiah Dennis
+*Purpose: To style shemaiah.html webpage
+******************************************************/
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+    background-color:blue;
+    font-size: 3em;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    text-size-adjust: 30px;
+    font-weight: bold;
+    margin: 0px;
+    margin: top 50px;
+}
+aside{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: yellow;}
+    
+footer{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: yellow;
+}
+article{
+    color: blue;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 10px;
+    opacity: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:hover{
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: -webkit-linear-gradient(bottom,yellow 0%,orange 100%);
+}
+
+ul {
+    list-style-type: square;
+    padding: 10;
+}
+
+img {
+    border-style:groove ;
+    border-width: 10px;
+    display: block;
+    margin: 2em auto;
+    max-width: 95%;
+    opacity: 1;
+    
+}
+
+li:nth-child(even){
+    background-color: hotpink;
+}
+li:nth-child(odd){
+    background-color: white; 
+}
+h2{
+    text-decoration: underline;
+    margin: 0px;
+}
+dt{
+    text-decoration: underline;
+}
+body{
+    margin:0px;
+    background-image: url(/VANILA/MEDIA/FB_IMG_17146303216448845.jpg);
+    background-repeat: round;
+    font-style: italic;
+    
+}
+
+footer,dl{
+    margin: 0px;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li,p{
+    font-size: large;
+    padding: 2px auto
+}
+li{  
+    margin:0px 50% 0px 0px ;
+}
+a{
+    margin: 10px;
+    padding: 10px;
+    color: hotpink;
+    display:inline-block ;
+    background-color: aqua;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(top,yellow 0%,orange 100%);
+    box-shadow: 2px 2px 3px 2px aqua;
+}
+section{
+    background-color: yellow;
+    opacity: 0.8;
+    background:-moz-linear-gradient(top,yellow 0%,rgb(179, 216, 16) 100%);
+    background: -webkit-linear-gradient(top,yellow 0%,orange 100%);
+    background: linear-gradient(top,yellow 0%,rgb(179, 216, 16) 100%);
+}
+#circle{
+    border-radius: 200px;
+    width: 100px;
+    height: 90px;
+    background-color: orange;
+    opacity: 0.9;
+    text-align:center;
+    padding: 20px;
+    position: absolute;
+    left: 10px;
+    box-shadow: 2px 2px 3px 2px aqua;
+
+}
+#circle2{
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 221);
+    opacity:1;
+    text-align:center;
+    padding: 20px;
+    position: absolute;
+    left: 160px;
+    box-shadow: 2px 2px 3px 2px orange;
+    text-align: center;
+}
+
+footer a{
+    display: inline-block;
+}
+
+
